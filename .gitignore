@@ -1,0 +1,11 @@
+*.sublime-project
+*.sublime-workspace
+.DS*
+.DS_Store
+
+html/.DS_Store
+
+html/assets/.DS_Store
+
+Library
+testfile2
