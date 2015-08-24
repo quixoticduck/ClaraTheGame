@@ -15,7 +15,7 @@ function Start ()
 
 function Update () 
 {
-	if (isShowingText)
+	if (isShowingText && notSpokenTo == true)
      
 	{
 		textboxBackground.SetActive(true);
@@ -29,21 +29,22 @@ function Update ()
 			displayText.text = "I could change my angle at any moment if I wanted to. This is my best angle, I look great at this angle (obviously).";
 		}
 		
-//		else if (howManyTimesPressedSpaceSinceTalking == 2)
-//		{
-//			displayText.text = "Clearly a slendid specimin of an aardvark such as myself is not flat.";
-//		}
-		
-		else if (howManyTimesPressedSpaceSinceTalking == 2)
+		notSpokenTo = false;	
+	}
+	
+	if (isShowingText && notSpokenTo == false)
+     
+	{
+		textboxBackground.SetActive(true);
+	
+		if(howManyTimesPressedSpaceSinceTalking == 0)
 		{
 			displayText.text = "Why can't I move? How dare you. Of course I have animation programmed! I could even dance if I wanted to.";
 		}		
 		else
 		{
 			displayText.text = "I'm just resting. Not everybody likes to show themselves up jumping around chasing after cups/mugs like a lunatic. Some people have class.";
-		}	
-	        
-	               
+		}	               
 	}
 	
 	else
