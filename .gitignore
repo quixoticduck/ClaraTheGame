@@ -9,3 +9,16 @@ html/assets/.DS_Store
 
 Library
 testfile2
+Assembly-CSharp-Editor-vs.csproj
+Assembly-CSharp-Editor.csproj
+Assembly-CSharp-firstpass-vs.csproj
+Assembly-CSharp-firstpass.csproj
+Assembly-UnityScript-vs.unityproj
+Assembly-UnityScript.unityproj
+Assets/aardvarkScript.js
+ClaraTheGame-csharp.sln
+ClaraTheGame.sln
+ClaraTheGame.userprefs
+Temp/
+testfile.txt
+testfile2.txt
