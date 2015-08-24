@@ -40,6 +40,8 @@ sysinfo.txt
 # OS generated #
 # ============ #
 .DS_Store*
+.DS*
+.DS_Store
 ._*
 .Spotlight-V100
 .Trashes
@@ -51,20 +53,6 @@ ehthumbs.db
 # ============ #
 # Clara MEEEE generated #
 # ============ #
-testfile.txt/
-testfile/
-
-
-*.sublime-project
-*.sublime-workspace
-.DS*
-.DS_Store
-
-html/.DS_Store
-
-html/assets/.DS_Store
-
-testfile2
 Assembly-CSharp-Editor-vs.csproj
 Assembly-CSharp-Editor.csproj
 Assembly-CSharp-firstpass-vs.csproj
@@ -80,8 +68,6 @@ ClaraTheGame-csharp.sln
 ClaraTheGame.sln
 ClaraTheGame.userprefs
 Temp/
-testfile.txt
-testfile2.txt
 
 
 
