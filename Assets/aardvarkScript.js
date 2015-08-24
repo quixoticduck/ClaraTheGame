@@ -6,10 +6,12 @@ var playerGameObject:GameObject;
 var isShowingText:boolean;
 var howManyTimesPressedSpaceSinceTalking:Number;
 var textboxBackground: GameObject;
+var notSpokenTo: boolean;
 
-function Start () {
-
-}
+function Start () 
+	{
+		notSpokenTo = true;
+	}
 
 function Update () 
 {
