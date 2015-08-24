@@ -15,6 +15,10 @@ Assembly-CSharp-firstpass-vs.csproj
 Assembly-CSharp-firstpass.csproj
 Assembly-UnityScript-vs.unityproj
 Assembly-UnityScript.unityproj
+Assembly-UnityScript-Editor-vs.unityproj
+Assembly-UnityScript-Editor.unityproj
+Assembly-CSharp-vs.csproj
+Assembly-CSharp.csproj
 Assets/aardvarkScript.js
 ClaraTheGame-csharp.sln
 ClaraTheGame.sln
@@ -22,3 +26,7 @@ ClaraTheGame.userprefs
 Temp/
 testfile.txt
 testfile2.txt
+
+
+
+
