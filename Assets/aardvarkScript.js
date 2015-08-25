@@ -16,21 +16,20 @@ function Start ()
 function Update () 
 {
 	if (isShowingText && notSpokenTo)
-     
 	{
 		textboxBackground.SetActive(true);
 	
 		if(howManyTimesPressedSpaceSinceTalking == 0)
 		{
 			displayText.text = "1) Why am I 2d? How dare you. I'm not missing a dimension I've just been on a diet, unlike *some* people.";
+			//howManyTimesPressedSpaceSinceTalking = 1;
 		}
 		else if (howManyTimesPressedSpaceSinceTalking == 1)
 		{
 			displayText.text = "2) I could change my angle at any moment if I wanted to. This is my best angle, I look great at this angle (obviously).";
-			notSpokenTo = false;
 			howManyTimesPressedSpaceSinceTalking = 0;
+			notSpokenTo = false;
 		}
-	
 	}
 	
 	if (isShowingText && !notSpokenTo)
@@ -63,10 +62,12 @@ function Update ()
 
 function OnTriggerEnter (thingCollidedWith:Collider)
 {
-	if (thingCollidedWith.gameObject == playerGameObject)
+	//if (thingCollidedWith.gameObject == playerGameObject)
+	if (thingCollidedWith.gameObject == playerGameObject && Input.GetKeyUp(KeyCode.E))
 	{
 		howManyTimesPressedSpaceSinceTalking = 0;
 		isShowingText = true;
+		Debug.Log("collide and E");
 	}
 }
 
