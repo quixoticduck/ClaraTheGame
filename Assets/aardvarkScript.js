@@ -30,7 +30,6 @@ function Update ()
 			notSpokenTo = false;
 			howManyTimesPressedSpaceSinceTalking = 0;
 		}
-		
 	
 	}
 	
