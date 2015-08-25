@@ -62,12 +62,12 @@ function Update ()
 
 function OnTriggerEnter (thingCollidedWith:Collider)
 {
-	//if (thingCollidedWith.gameObject == playerGameObject)
-	if (thingCollidedWith.gameObject == playerGameObject && Input.GetKeyUp(KeyCode.E))
+	if (thingCollidedWith.gameObject == playerGameObject)
+	//if (thingCollidedWith.gameObject == playerGameObject && Input.GetKeyDown(KeyCode.E))
 	{
 		howManyTimesPressedSpaceSinceTalking = 0;
 		isShowingText = true;
-		Debug.Log("collide and E");
+		//Debug.Log("collide and E");
 	}
 }
 
