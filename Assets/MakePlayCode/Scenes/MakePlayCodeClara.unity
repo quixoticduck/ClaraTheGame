@@ -470,6 +470,7 @@ MonoBehaviour:
   howManyTimesPressedSpaceSinceTalking: 0
   textboxBackground: {fileID: 476540748}
   notSpokenTo: 1
+  sentenceTwo: 0
 --- !u!64 &161231090
 MeshCollider:
   m_ObjectHideFlags: 0

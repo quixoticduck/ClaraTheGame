@@ -7,10 +7,12 @@ var isShowingText:boolean;
 var howManyTimesPressedSpaceSinceTalking:Number;
 var textboxBackground: GameObject;
 var notSpokenTo: boolean;
+var sentenceTwo: boolean;
 
 function Start () 
 	{
 		notSpokenTo = true;
+		sentenceTwo = false;
 	}
 
 function Update () 
@@ -28,6 +30,7 @@ function Update ()
 		else if (howManyTimesPressedSpaceSinceTalking == 2)
 		{
 			displayText.text = "2) I could change my angle at any moment if I wanted to. This is my best angle, I look great at this angle (obviously).";
+			sentenceTwo = true;
 			Debug.Log("2");
 		}
 		
@@ -84,6 +87,11 @@ function OnTriggerStay (thingCollidedWith:Collider)
 		isShowingText = true;
 		howManyTimesPressedSpaceSinceTalking ++;
 		Debug.Log("collide and E");
+		
+		if (sentenceTwo == true)
+		{
+			notSpokenTo = false;
+		}
 	}
 }
 
