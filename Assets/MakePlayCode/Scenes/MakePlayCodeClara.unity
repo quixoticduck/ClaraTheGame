@@ -592,7 +592,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 10, y: 5, z: 2}
+  m_Size: {x: 12, y: 5, z: 2}
   m_Center: {x: -9.53674316e-07, y: 1.49011612e-07, z: 0}
 --- !u!1 &187717241
 GameObject:
@@ -621,7 +621,7 @@ Transform:
   m_Children:
   - {fileID: 583806535}
   m_Father: {fileID: 1590295173}
-  m_RootOrder: 10
+  m_RootOrder: 9
 --- !u!1001 &277221594
 Prefab:
   m_ObjectHideFlags: 0
@@ -713,7 +713,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 1590295173}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.x
@@ -721,7 +721,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -745,7 +745,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_WalkSpeed
@@ -1008,7 +1008,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 489868, guid: 48f25ffcc08a2c34ca8f0d9eefcdd4af, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 48f25ffcc08a2c34ca8f0d9eefcdd4af, type: 2}
@@ -1632,7 +1632,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 438030, guid: a0f375201058fe74493a5be4e4ce66a5, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 156344, guid: a0f375201058fe74493a5be4e4ce66a5, type: 2}
       propertyPath: m_Name
@@ -1680,10 +1680,6 @@ Transform:
 --- !u!1 &1085292931 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
-  m_PrefabInternal: {fileID: 328909743}
---- !u!4 &1085292932 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
   m_PrefabInternal: {fileID: 328909743}
 --- !u!1 &1186196556
 GameObject:
@@ -2632,7 +2628,6 @@ Transform:
   - {fileID: 1452548485}
   - {fileID: 1186196560}
   - {fileID: 1393333542}
-  - {fileID: 1085292932}
   - {fileID: 2056337752}
   - {fileID: 187717242}
   m_Father: {fileID: 0}
@@ -3215,7 +3210,7 @@ Transform:
   - {fileID: 861180231}
   - {fileID: 865173166}
   m_Father: {fileID: 1590295173}
-  m_RootOrder: 9
+  m_RootOrder: 8
 --- !u!4 &2057374441 stripped
 Transform:
   m_PrefabParentObject: {fileID: 458756, guid: e8b27f7863c7345699207e11b2cc8a52, type: 2}
