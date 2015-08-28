@@ -1,0 +1,828 @@
+Mono path[0] = 'C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Output/Best Working Copy/2D Aardvark The Game_Data/Managed'
+Mono path[1] = 'C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Output/Best Working Copy/2D Aardvark The Game_Data/Mono'
+Mono config path = 'C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Output/Best Working Copy/2D Aardvark The Game_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Output/Best Working Copy/2D Aardvark The Game_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55276
+Multi-casting "[IP] 192.168.0.6 [Port] 55276 [Flags] 2 [Guid] 2620057533 [EditorId] 3905093590 [Version] 1048832 [Id] WindowsPlayer(Clara-PC) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.0.6:55276]
+Initialize engine version: 5.1.2f1 (afd2369b692a)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: ATI Radeon HD 5800 Series (ID=0x6898)
+    Vendor:   ATI
+    VRAM:     1010 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.046 seconds
+desktop: 1920x1200 60Hz; virtual: 1920x1200 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Output\Best Working Copy\2D Aardvark The Game_Data\Managed\System.dll (this message is harmless)
+Shader 'Nature/Terrain/Specular': dependency 'BaseMapShader' shader 'Hidden/TerrainEngine/Splatmap/Specular-Base' not found
+The tree lamppostPrefab must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Terrain/TreeDatabase.cpp Line: 98)
+
+The tree lamppostPrefab must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Terrain/TreeDatabase.cpp Line: 98)
+
+The tree lamppostPrefab must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Terrain/TreeDatabase.cpp Line: 98)
+
+The tree lamppostPrefab must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename: C:/buildslave/unity/build/Runtime/Terrain/TreeDatabase.cpp Line: 98)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2560 -> priority: 1 
+I have been collided with
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+Collectable:OnTriggerEnter(Collider) (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\Collectable.js:22)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/Collectable.js Line: 22)
+
+Collected
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+GameSceneController:Collect() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\GameSceneController.js:15)
+Collectable:OnTriggerEnter(Collider) (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\Collectable.js:23)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/GameSceneController.js Line: 15)
+
+collide and Press E
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:OnTriggerStay(Collider) (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:97)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 97)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:32)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 32)
+
+collide and Press E
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:OnTriggerStay(Collider) (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:97)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 97)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+2
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+aardvarkScript:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\aardvarkScript.js:38)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/aardvarkScript.js Line: 38)
+
+collide and Press E
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:OnTriggerStay(Collider) (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:65)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 65)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
+1
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+babyGiraffeTalk:Update() (at C:\Users\Public\Documents\Unity Projects\ClaraTheGame\Assets\babyGiraffeTalk.js:28)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/ClaraTheGame/Assets/babyGiraffeTalk.js Line: 28)
+
