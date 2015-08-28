@@ -7,6 +7,8 @@ TagManager:
   - babyGiraffe
   - textbox
   - textboxBackground
+  - npcTalk
+  - aardvark
   layers:
   - Default
   - TransparentFX

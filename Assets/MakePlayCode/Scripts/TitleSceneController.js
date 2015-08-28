@@ -5,5 +5,5 @@ function LoadNextScene()
 {
 	// This special Unity function loads the scene with the exact name that you send it - as long as the scene is in the project's build settings!
 	// If you have trouble with this, double check the name, spelling, case and build settings
-	Application.LoadLevel("mainRoom2");
+	Application.LoadLevel("MakePlayCodeClara");
 }

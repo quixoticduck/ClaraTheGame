@@ -13,12 +13,10 @@ var sentenceTwo: boolean;
 
 function Start () 
 	{
-		notSpokenTo = true;
-		sentenceTwo = false;
 		textboxBackground.SetActive(false);
 		textboxNpcName.SetActive(false);
-		displayNpcName.text = "2D Aardvark";
-		
+		notSpokenTo = true;
+		sentenceTwo = false;
 	}
 
 function Update () 
@@ -92,6 +90,7 @@ function OnTriggerStay (thingCollidedWith:Collider)
 	
 	{
 		//howManyTimesPressedSpaceSinceTalking = 0;
+		displayNpcName.text = "2D Aardvark";
 		isShowingText = true;
 		textboxNpcName.SetActive(true);
 		howManyTimesPressedSpaceSinceTalking ++;
