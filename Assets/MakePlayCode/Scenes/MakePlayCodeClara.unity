@@ -458,7 +458,7 @@ Transform:
   - {fileID: 869765170}
   - {fileID: 1234764009}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!4 &131528704 stripped
 Transform:
   m_PrefabParentObject: {fileID: 484168, guid: 1ba7b51af244fb549a246973a1dfc329, type: 2}
@@ -1320,7 +1320,7 @@ RectTransform:
   - {fileID: 1496749944}
   - {fileID: 81229518}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1690,10 +1690,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 914800261}
   m_Mesh: {fileID: 4300006, guid: 7e1117d7779bf45d6b2640b0536bda3e, type: 3}
---- !u!1 &949213224 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 150652, guid: 3ee76b947378942d2b52b57f7f0b7b6e, type: 2}
-  m_PrefabInternal: {fileID: 1720610176}
 --- !u!4 &949213225 stripped
 Transform:
   m_PrefabParentObject: {fileID: 423198, guid: 3ee76b947378942d2b52b57f7f0b7b6e, type: 2}
@@ -1791,7 +1787,7 @@ RectTransform:
   - {fileID: 233376629}
   - {fileID: 1250926002}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 10
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -1881,7 +1877,7 @@ Transform:
   - {fileID: 1942752175}
   - {fileID: 828425216}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 0
 --- !u!4 &1127810785 stripped
 Transform:
   m_PrefabParentObject: {fileID: 484168, guid: 1ba7b51af244fb549a246973a1dfc329, type: 2}
@@ -2266,7 +2262,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_WalkSpeed
@@ -3990,7 +3986,7 @@ Transform:
   m_LocalScale: {x: 3, y: 1, z: 3}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 9
 --- !u!1 &1895425936
 GameObject:
   m_ObjectHideFlags: 0
@@ -4171,27 +4167,6 @@ GameObject:
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: ad61a662f485a4cf1b662a9409cf071d, type: 3}
   m_PrefabInternal: {fileID: 2096823328}
---- !u!114 &1942752176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1942752174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf4034525302348c3a84a8074ed5474f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerGameObject: {fileID: 0}
-  gameSceneController: {fileID: 2038404824}
-  treeWallDoorExit: {fileID: 949213224}
-  rSpeed: 1
-  displayText: {fileID: 1446820540}
-  displayNpcName: {fileID: 1496749942}
-  isShowingText: 0
-  howManyTimesPressedSpaceSinceTalking: 0
-  textboxBackground: {fileID: 1587253001}
-  textboxNpcName: {fileID: 1496749941}
 --- !u!65 &1942752177
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4293,7 +4268,7 @@ Transform:
   - {fileID: 1783082658}
   - {fileID: 1838488180}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1001 &1968678030
 Prefab:
   m_ObjectHideFlags: 0
@@ -4447,7 +4422,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 489868, guid: 48f25ffcc08a2c34ca8f0d9eefcdd4af, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 48f25ffcc08a2c34ca8f0d9eefcdd4af, type: 2}
@@ -4761,7 +4736,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 489868, guid: 48f25ffcc08a2c34ca8f0d9eefcdd4af, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 489868, guid: 48f25ffcc08a2c34ca8f0d9eefcdd4af, type: 2}
       propertyPath: m_LocalScale.x
@@ -4903,7 +4878,7 @@ Transform:
   - {fileID: 43709850}
   - {fileID: 1659959783}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 6
 --- !u!1001 &2140838742
 Prefab:
   m_ObjectHideFlags: 0
