@@ -260,7 +260,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 595013521}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 253, y: -49}
@@ -320,10 +320,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 2073124194}
-  - {fileID: 1664408655}
-  - {fileID: 445722822}
   - {fileID: 795503716}
+  - {fileID: 445722822}
+  - {fileID: 1664408655}
+  - {fileID: 2073124194}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
@@ -510,7 +510,7 @@ RectTransform:
   m_LocalScale: {x: 1.54897261, y: .590099692, z: .590099692}
   m_Children: []
   m_Father: {fileID: 595013521}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: -196, y: -85}
@@ -552,7 +552,7 @@ GameObject:
   - 4: {fileID: 1098232235}
   - 114: {fileID: 1098232234}
   m_Layer: 0
-  m_Name: endGameController
+  m_Name: endGameControllerObj
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -709,7 +709,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 595013521}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_AnchorMin: {x: .5, y: .841142058}
   m_AnchorMax: {x: .5, y: 1}
   m_AnchoredPosition: {x: 28, y: -72}
@@ -745,7 +745,7 @@ RectTransform:
   m_Children:
   - {fileID: 1593989480}
   m_Father: {fileID: 595013521}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_AnchorMin: {x: .5, y: .5}
   m_AnchorMax: {x: .5, y: .5}
   m_AnchoredPosition: {x: 32, y: 0}
@@ -790,8 +790,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: ffe74c2c1a1406341a52ed189d02ff22, type: 3}
-        m_MethodName: 
+      - m_Target: {fileID: 1098232234}
+        m_MethodName: endGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

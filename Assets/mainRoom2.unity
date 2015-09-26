@@ -184,11 +184,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55b3961d5c8b84be7a403a44bd9209e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayText: {fileID: 105459114}
+  displayText: {fileID: 12497618}
+  displayNpcName: {fileID: 1342951484}
   playerGameObject: {fileID: 1085292931}
   isShowingText: 0
   howManyTimesPressedSpaceSinceTalking: 0
-  textboxBackground: {fileID: 476540748}
+  textboxBackground: {fileID: 1148057438}
+  textboxNpcName: {fileID: 1342951482}
 --- !u!65 &28514701
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1626,10 +1628,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2056337752}
   m_RootOrder: 0
---- !u!1 &849916580 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 150652, guid: 3ee76b947378942d2b52b57f7f0b7b6e, type: 2}
-  m_PrefabInternal: {fileID: 1171235792}
 --- !u!1 &861180229
 GameObject:
   m_ObjectHideFlags: 0
@@ -2149,10 +2147,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf4034525302348c3a84a8074ed5474f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerGameObject: {fileID: 0}
+  playerGameObject: {fileID: 1361939471}
   gameSceneController: {fileID: 0}
-  treeWallDoorExit: {fileID: 849916580}
   rSpeed: 2
+  displayText: {fileID: 12497618}
+  displayNpcName: {fileID: 1342951484}
+  isShowingText: 0
+  howManyTimesPressedSpaceSinceTalking: 0
+  textboxBackground: {fileID: 1148057438}
+  textboxNpcName: {fileID: 1342951482}
 --- !u!1 &1253146911
 GameObject:
   m_ObjectHideFlags: 0
@@ -2475,6 +2478,10 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1342951482}
+--- !u!1 &1361939471 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100002, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
+  m_PrefabInternal: {fileID: 328909743}
 --- !u!1 &1365286794
 GameObject:
   m_ObjectHideFlags: 0
