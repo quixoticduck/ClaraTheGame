@@ -1,6 +1,7 @@
 ﻿#pragma strict
 import UnityEngine.UI;
 
+var textboxTalkButton:GameObject;
 var displayText:Text;
 var displayNpcName:Text;
 var playerGameObject:GameObject;
@@ -84,8 +85,13 @@ function Update ()
 //	}
 }
 
+// when player moves towards from NPC
 function OnTriggerStay (thingCollidedWith:Collider)
-{
+    {
+        //show textbox talk button when nearby NPC
+        textboxTalkButton.SetActive(true);
+
+    // when player is by NPC AND pressing talk button
 	if (thingCollidedWith.gameObject == playerGameObject && Input.GetKeyDown(KeyCode.E))
 	
 	{
@@ -115,10 +121,14 @@ function OnTriggerStay (thingCollidedWith:Collider)
 //	}
 //}
 
-
+// when player has moved away from NPC
 function OnTriggerExit (thingCollidedWith:Collider)
-{
-	textboxBackground.SetActive(false);
+    {
+        //remove textbox talk button if player has moved away from NPC
+        textboxTalkButton.SetActive(false);
+
+        //remove textbox if player has moved away from NPC
+	    textboxBackground.SetActive(false);
 		displayText.text = "";
 		
 	if (thingCollidedWith.gameObject == playerGameObject)
@@ -128,6 +138,5 @@ function OnTriggerExit (thingCollidedWith:Collider)
 		howManyTimesPressedSpaceSinceTalking = 0;
 	}
 }
-	
 	
 	

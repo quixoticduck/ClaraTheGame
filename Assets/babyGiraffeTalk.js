@@ -1,6 +1,7 @@
 ﻿#pragma strict
 import UnityEngine.UI;
-
+    
+var textboxTalkButton:GameObject;
 var displayText:Text;
 var displayNpcName:Text;
 var playerGameObject:GameObject;
@@ -11,7 +12,7 @@ var textboxNpcName: GameObject;
 
 function Start () 
 	{
-		textboxBackground.SetActive(false);
+        textboxBackground.SetActive(false);
 		textboxNpcName.SetActive(false);
 	}
 
@@ -29,7 +30,7 @@ function Update ()
 		}
 		else if (howManyTimesPressedSpaceSinceTalking == 2)
 		{
-			displayText.text = "Try collecting stuff to open that exciting door.";
+			displayText.text = "Try collecting stuff to remove the forest barrier to my right.";
 			Debug.Log("2");
 		}
 		
@@ -52,33 +53,44 @@ function Update ()
 
 }
 
+// when player moves towards from NPC
 function OnTriggerStay (thingCollidedWith:Collider)
-{
-	if (thingCollidedWith.gameObject == playerGameObject && Input.GetKeyDown(KeyCode.E))
+    
+    {
+        //show textbox talk button when nearby NPC
+        textboxTalkButton.SetActive(true);
+
+        // when player is by NPC AND pressing talk button
+	    if (thingCollidedWith.gameObject == playerGameObject && Input.GetKeyDown(KeyCode.E))
 	
-	{
-		//howManyTimesPressedSpaceSinceTalking = 0;
-		displayNpcName.text = "Giraffe";
-		isShowingText = true;
-		textboxNpcName.SetActive(true);
-		howManyTimesPressedSpaceSinceTalking ++;
-		Debug.Log("collide and Press E");
-	}
+	    {
+		    //howManyTimesPressedSpaceSinceTalking = 0;
+		    displayNpcName.text = "Giraffe";
+		    isShowingText = true;
+		    textboxNpcName.SetActive(true);
+		    howManyTimesPressedSpaceSinceTalking ++;
+		    Debug.Log("collide and Press E");
+	    }
 }
 
-
+// when player has moved away from NPC
 function OnTriggerExit (thingCollidedWith:Collider)
-{
-	textboxBackground.SetActive(false);
-		displayText.text = "";
+
+    {
+        //remove textbox talk button if player has moved away from NPC
+        textboxTalkButton.SetActive(false);
+
+        //remove textbox if player has moved away from NPC
+	    textboxBackground.SetActive(false);
+		    displayText.text = "";
 		
-	if (thingCollidedWith.gameObject == playerGameObject)
-	{
-		isShowingText = false;
-		textboxNpcName.SetActive(false);
-		howManyTimesPressedSpaceSinceTalking = 0;
-	}
-}
+	    if (thingCollidedWith.gameObject == playerGameObject)
+	    {
+		    isShowingText = false;
+		    textboxNpcName.SetActive(false);
+		    howManyTimesPressedSpaceSinceTalking = 0;
+	    }
+    }
 
 //bugs: if you move away then first time talking again is 'end' rather than speech
 // sometimes button press does nothing
